@@ -1,0 +1,86 @@
+.TweetCard {
+  border: 1px solid black;
+  width: 70%;
+  margin: auto;
+  border-radius: 15px;
+  margin-bottom: 10px;
+  padding: 1%;
+}
+
+/*
+* Twitter Card Header Container
+*/
+.TweetCardHeader {
+}
+
+/*
+* Twitter Card Header PROFILE IMG
+*/
+.TweetCardProfileImage img {
+  border-radius: 50%;
+  width: 10%;
+}
+
+/*
+* Twitter Card Header USER CONTAINER Container
+*/
+.TweetCardUserMeta {
+  margin-left: 10px;
+  position: absolute;
+}
+
+/*
+* Twitter Card Header USERNAME
+*/
+.TweetCardProfileName {
+  font-weight: bold;
+  font-size: 1.3rem;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+}
+
+/*
+* Twitter Card Header USERTAG
+*/
+.TweetCardProfileTag {
+  margin-left: 1%;
+  float: left;
+}
+.TweetCardProfileTag a {
+  text-decoration: none;
+  color: grey;
+}
+
+.TweetCardProfileTag a:hover {
+  text-decoration: underline;
+}
+
+/*
+* Twitter Card Body Container
+*/
+.TweetCardBody {
+}
+.TweetCardBody p {
+  font-size: 1.5rem;
+}
+
+/*
+* Twitter Card Footer Container
+*/
+
+.TweetCardFooter {
+  border-top: 1px solid #cacaca;
+}
+/*
+* Twitter Card Footer FOOTEROBJECTS
+*/
+.TweetCardFooterObjects {
+  margin-left: 20%;
+}
+
+.TweetCardFooterMetaData {
+  margin-bottom: 2%;
+}
+
+.FontIcons {
+  margin-right: 1%;
+}
